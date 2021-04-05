@@ -8,3 +8,13 @@ h1 {
   color: sandybrown;
   margin: 50px;
 }
+
+.form,
+.hello {
+  display: none;
+}
+
+.showing {
+  display: block;
+  color: green;
+}
