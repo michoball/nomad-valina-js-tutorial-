@@ -2,6 +2,11 @@ body {
   background-color: purple;
 }
 
+button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
 h1 {
   text-align: center;
   font-size: 24px bold;
@@ -12,9 +17,35 @@ h1 {
 .form,
 .hello {
   display: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.my-Todoform {
+  border-bottom: 2px solid white;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  display: block;
+}
+
+input {
+  outline: none;
+  font: 200 40px Arial;
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  text-align: center;
+  text-shadow: none;
+  border: none;
+  color: white;
 }
 
 .showing {
   display: block;
-  color: green;
+  color: whitesmoke;
+  height: auto;
+  text-align: center;
+  font: 10 50px Arial;
 }
