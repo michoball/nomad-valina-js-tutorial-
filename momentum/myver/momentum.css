@@ -1,0 +1,8 @@
+.name,
+.hello {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
