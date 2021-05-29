@@ -28,11 +28,12 @@ function printTodoo(text) {
     span = document.createElement("span"),
     newId = toDos.length + 1;
 
-  delBtn.innerText = "❌";
   delBtn.addEventListener("click", deleteToDo);
   span.innerText = text;
-  li.appendChild(delBtn);
+  delBtn.innerText = "❌";
+
   li.appendChild(span);
+  li.appendChild(delBtn);
 
   li.id = newId;
   todolist.appendChild(li);
