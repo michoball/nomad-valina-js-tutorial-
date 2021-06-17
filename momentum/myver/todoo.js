@@ -12,9 +12,11 @@ function saveToDos() {
 }
 
 function deleteToDo(event) {
+  //화면에서 리스트 제거
   const btn = event.target;
   const prli = btn.parentNode;
   todolist.removeChild(prli);
+  // 로컬스토리지에서 리스트 제거
   const cleanTodoo = toDos.filter(function (todo) {
     return todo.id !== parseInt(prli.id);
   });
